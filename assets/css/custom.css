@@ -1,0 +1,8 @@
+body {
+	background-color: black;
+}
+
+.coming-soon {
+	background-image: url('../images/swann_coming_soon_noback.png');
+	background-repeat: no-repeat;
+}
