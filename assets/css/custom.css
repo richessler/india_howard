@@ -1,5 +1,11 @@
+@font-face {
+  font-family: BallentinesFont;
+  src: url(../fonts/ballantines_serial_medium.ttf);
+  font-weight:400;
+}
 body {
 	background-color: black;
+  /*font-family: BallentinesFont, cursive !important;*/
 }
 
 .coming-soon {
@@ -21,4 +27,55 @@ body {
 
 .color-purple {
   color: mediumpurple;
+}
+
+.larger-text {
+  font-size: 2em;
+}
+
+.large-text{
+  font-size: 1.5em;
+}
+
+.min-padding-bottom{
+  padding-bottom: 15px;
+}
+
+#transform {
+  position:relative;
+  height:250px;
+  width:756px;
+  margin:0 auto;
+}
+
+#transform img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes transform3FadeInOut {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+#transform img.white-transform {
+  animation-name: transform3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
 }
