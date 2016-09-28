@@ -2604,6 +2604,7 @@ Vertival margin, padding
 	/*custom*/
 	.story {
 		text-align:justify !important;
+    padding: 0 10px;
 	}
 
 	#about {
