@@ -79,3 +79,10 @@ body {
   animation-duration: 10s;
   animation-direction: alternate;
 }
+
+.contact-form input {
+  ::-webkit-input-placeholder { color: mediumpurple; }
+  ::-moz-placeholder { color: mediumpurple; }
+  :-ms-input-placeholder { color: mediumpurple; }
+  :-moz-placeholder { color: mediumpurple; }
+}
