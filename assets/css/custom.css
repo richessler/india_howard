@@ -25,8 +25,18 @@ body {
   margin-bottom: 30px;
 }
 
+.portfolio-image.bio-image {
+  max-width: 750px
+}
 .color-purple {
   color: mediumpurple;
+}
+
+.thanks > p {
+  font-size: 16px;
+}
+.thanks > h2 {
+  margin-bottom: 0;
 }
 
 .larger-text {
@@ -76,11 +86,11 @@ body {
   animation-name: transform3FadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-direction: alternate;
 }
 
-.contact-form input {
+.contact-form input {2
   ::-webkit-input-placeholder { color: mediumpurple; }
   ::-moz-placeholder { color: mediumpurple; }
   :-ms-input-placeholder { color: mediumpurple; }
