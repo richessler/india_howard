@@ -51,6 +51,10 @@ body {
   padding-bottom: 15px;
 }
 
+.work-image.greetings-image {
+  max-height: 800px;
+}
+
 #transform {
   position:relative;
   height:250px;
@@ -86,11 +90,11 @@ body {
   animation-name: transform3FadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 5s;
+  animation-duration: 7.5s;
   animation-direction: alternate;
 }
 
-.contact-form input {2
+.contact-form input {
   ::-webkit-input-placeholder { color: mediumpurple; }
   ::-moz-placeholder { color: mediumpurple; }
   :-ms-input-placeholder { color: mediumpurple; }
