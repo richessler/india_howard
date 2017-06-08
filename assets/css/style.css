@@ -2632,9 +2632,13 @@ Vertival margin, padding
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
-
 .inner-overlay {
-  top: 200px;
+	top: 200px;
+}
+@media (max-width: 1200px) {
+	.inner-overlay {
+		top: 0;
+	}
 }
 
 .inner-overlay h1 {
